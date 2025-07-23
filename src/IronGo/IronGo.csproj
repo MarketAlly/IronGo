@@ -15,8 +15,8 @@
     <Description>A native .NET library for parsing Go source code. Provides a complete Abstract Syntax Tree (AST) representation with visitor pattern support, JSON serialization, and comprehensive diagnostics.</Description>
     <PackageTags>go;golang;parser;ast;syntax-tree;antlr;code-analysis;static-analysis</PackageTags>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <PackageProjectUrl>https://github.com/MarketAlly/IronGo</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/MarketAlly/IronGo</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/marketally/IronGo</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/marketally/IronGo</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageIcon>icon.png</PackageIcon>

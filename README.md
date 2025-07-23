@@ -1,8 +1,8 @@
 # IronGo
 
 [![NuGet](https://img.shields.io/nuget/v/IronGo.svg)](https://www.nuget.org/packages/IronGo/)
-[![License](https://img.shields.io/github/license/MarketAlly/IronGo.svg)](LICENSE)
-[![Build Status](https://img.shields.io/github/actions/workflow/status/MarketAlly/IronGo/ci.yml)](https://github.com/MarketAlly/IronGo/actions)
+[![License](https://img.shields.io/github/license/marketally/IronGo.svg)](LICENSE)
+[![Build Status](https://img.shields.io/github/actions/workflow/status/marketally/IronGo/ci.yml)](https://github.com/marketally/IronGo/actions)
 
 IronGo is a native .NET library for parsing Go source code. It provides a complete Abstract Syntax Tree (AST) representation of Go programs with comprehensive support for Go 1.21+ syntax, including generics.
 
@@ -287,7 +287,7 @@ The analyzer detects:
 
 ```bash
 # Clone the repository
-git clone https://github.com/MarketAlly/IronGo.git
+git clone https://github.com/marketally/IronGo.git
 cd IronGo
 
 # Build the solution
@@ -316,9 +316,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Support
 
-- **Documentation**: See the [Wiki](https://github.com/MarketAlly/IronGo/wiki)
-- **Issues**: Report bugs on [GitHub Issues](https://github.com/MarketAlly/IronGo/issues)
-- **Discussions**: Join our [GitHub Discussions](https://github.com/MarketAlly/IronGo/discussions)
+- **Documentation**: See the [Wiki](https://github.com/marketally/IronGo/wiki)
+- **Issues**: Report bugs on [GitHub Issues](https://github.com/marketally/IronGo/issues)
+- **Discussions**: Join our [GitHub Discussions](https://github.com/marketally/IronGo/discussions)
 
 ## Roadmap
 
