@@ -25,9 +25,9 @@ dotnet add package IronGo
 Then import the namespace:
 
 ```csharp
-using IronGo;
-using IronGo.AST;
-using IronGo.Utilities;
+using MarketAlly.IronGo;
+using MarketAlly.IronGo.AST;
+using MarketAlly.IronGo.Utilities;
 ```
 
 ## Parsing Go Code
