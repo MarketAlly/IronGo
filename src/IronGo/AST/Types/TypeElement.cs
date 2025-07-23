@@ -1,4 +1,4 @@
-namespace IronGo.AST;
+namespace MarketAlly.IronGo.AST;
 
 /// <summary>
 /// Represents a type element in an interface (for type sets)

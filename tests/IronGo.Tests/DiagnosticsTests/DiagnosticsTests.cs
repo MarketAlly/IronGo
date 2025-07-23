@@ -1,10 +1,10 @@
 using FluentAssertions;
-using IronGo;
-using IronGo.AST;
-using IronGo.Diagnostics;
+using MarketAlly.IronGo;
+using MarketAlly.IronGo.AST;
+using MarketAlly.IronGo.Diagnostics;
 using Xunit;
 
-namespace IronGo.Tests.DiagnosticsTests;
+namespace MarketAlly.IronGo.Tests.DiagnosticsTests;
 
 public class DiagnosticsTests
 {

@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using Antlr4.Runtime;
 using Antlr4.Runtime.Tree;
-using IronGo.AST;
+using MarketAlly.IronGo.AST;
 
-namespace IronGo.Parser;
+namespace MarketAlly.IronGo.Parser;
 
 /// <summary>
 /// Builds an IronGo AST from an ANTLR parse tree

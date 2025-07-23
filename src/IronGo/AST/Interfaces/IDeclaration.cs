@@ -1,4 +1,4 @@
-namespace IronGo.AST;
+namespace MarketAlly.IronGo.AST;
 
 /// <summary>
 /// Marker interface for all Go declarations

@@ -1,11 +1,11 @@
 using FluentAssertions;
-using IronGo;
-using IronGo.AST;
-using IronGo.Serialization;
+using MarketAlly.IronGo;
+using MarketAlly.IronGo.AST;
+using MarketAlly.IronGo.Serialization;
 using System.Text.Json;
 using Xunit;
 
-namespace IronGo.Tests.SerializationTests;
+namespace MarketAlly.IronGo.Tests.SerializationTests;
 
 public class JsonSerializationTests
 {

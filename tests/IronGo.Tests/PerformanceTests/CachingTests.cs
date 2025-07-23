@@ -1,12 +1,12 @@
 using FluentAssertions;
-using IronGo;
-using IronGo.Performance;
+using MarketAlly.IronGo;
+using MarketAlly.IronGo.Performance;
 using System;
 using System.Diagnostics;
 using System.Threading.Tasks;
 using Xunit;
 
-namespace IronGo.Tests.PerformanceTests;
+namespace MarketAlly.IronGo.Tests.PerformanceTests;
 
 public class CachingTests
 {
@@ -116,8 +116,8 @@ func concurrent() {
         ast1.Should().NotBeSameAs(ast2);
         ast1.Should().BeSameAs(ast1Again);
         
-        ast1.Declarations[0].As<IronGo.AST.FunctionDeclaration>().Name.Should().Be("one");
-        ast2.Declarations[0].As<IronGo.AST.FunctionDeclaration>().Name.Should().Be("two");
+        ast1.Declarations[0].As<MarketAlly.IronGo.AST.FunctionDeclaration>().Name.Should().Be("one");
+        ast2.Declarations[0].As<MarketAlly.IronGo.AST.FunctionDeclaration>().Name.Should().Be("two");
     }
     
     [Fact]

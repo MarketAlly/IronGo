@@ -2,9 +2,9 @@ using System.IO;
 using System.Text.Json;
 using System.Text.Json.Serialization;
 using System.Threading.Tasks;
-using IronGo.AST;
+using MarketAlly.IronGo.AST;
 
-namespace IronGo.Serialization;
+namespace MarketAlly.IronGo.Serialization;
 
 /// <summary>
 /// Extension methods for JSON serialization of AST nodes

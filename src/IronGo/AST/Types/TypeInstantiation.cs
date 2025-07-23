@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace IronGo.AST;
+namespace MarketAlly.IronGo.AST;
 
 /// <summary>
 /// Represents a generic type instantiation (e.g., List[int], Map[string, User])

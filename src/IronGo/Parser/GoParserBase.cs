@@ -1,7 +1,7 @@
 using Antlr4.Runtime;
 using Antlr4.Runtime.Misc;
 
-namespace IronGo.Parser;
+namespace MarketAlly.IronGo.Parser;
 
 public abstract class GoParserBase : Antlr4.Runtime.Parser
 {

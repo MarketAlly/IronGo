@@ -1,4 +1,4 @@
-namespace IronGo.AST;
+namespace MarketAlly.IronGo.AST;
 
 /// <summary>
 /// Represents a type assertion expression (e.g., x.(T))

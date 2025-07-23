@@ -1,9 +1,9 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using IronGo.AST;
+using MarketAlly.IronGo.AST;
 
-namespace IronGo.Utilities;
+namespace MarketAlly.IronGo.Utilities;
 
 /// <summary>
 /// Provides deep cloning functionality for AST nodes

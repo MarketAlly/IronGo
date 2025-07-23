@@ -1,4 +1,4 @@
-namespace IronGo.AST;
+namespace MarketAlly.IronGo.AST;
 
 /// <summary>
 /// Base implementation of visitor pattern that does nothing by default

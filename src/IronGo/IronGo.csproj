@@ -45,7 +45,7 @@
 
   <ItemGroup>
     <Antlr4 Include="Parser\*.g4">
-      <Package>IronGo.Parser</Package>
+      <Package>MarketAlly.IronGo.Parser</Package>
     </Antlr4>
   </ItemGroup>
 

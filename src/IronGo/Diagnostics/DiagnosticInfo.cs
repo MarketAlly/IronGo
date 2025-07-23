@@ -1,8 +1,8 @@
 using System;
 using System.Collections.Generic;
-using IronGo.AST;
+using MarketAlly.IronGo.AST;
 
-namespace IronGo.Diagnostics;
+namespace MarketAlly.IronGo.Diagnostics;
 
 /// <summary>
 /// Represents diagnostic information about the parsed source

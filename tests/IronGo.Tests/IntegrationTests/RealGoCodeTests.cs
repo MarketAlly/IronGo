@@ -1,13 +1,13 @@
 using FluentAssertions;
-using IronGo;
-using IronGo.AST;
-using IronGo.Serialization;
-using IronGo.Utilities;
+using MarketAlly.IronGo;
+using MarketAlly.IronGo.AST;
+using MarketAlly.IronGo.Serialization;
+using MarketAlly.IronGo.Utilities;
 using System.IO;
 using System.Linq;
 using Xunit;
 
-namespace IronGo.Tests.IntegrationTests;
+namespace MarketAlly.IronGo.Tests.IntegrationTests;
 
 public class RealGoCodeTests
 {

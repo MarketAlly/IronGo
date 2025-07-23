@@ -1,9 +1,9 @@
 using System;
 using System.Text.Json;
 using System.Text.Json.Serialization;
-using IronGo.AST;
+using MarketAlly.IronGo.AST;
 
-namespace IronGo.Serialization;
+namespace MarketAlly.IronGo.Serialization;
 
 /// <summary>
 /// Custom JSON converter for Go AST nodes

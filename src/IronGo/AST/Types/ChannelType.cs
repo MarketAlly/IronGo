@@ -1,4 +1,4 @@
-namespace IronGo.AST;
+namespace MarketAlly.IronGo.AST;
 
 /// <summary>
 /// Represents a channel type (e.g., "chan int", "&lt;-chan int", "chan&lt;- int")

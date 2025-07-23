@@ -3,9 +3,9 @@ using System.Collections.Concurrent;
 using System.Runtime.CompilerServices;
 using System.Security.Cryptography;
 using System.Text;
-using IronGo.AST;
+using MarketAlly.IronGo.AST;
 
-namespace IronGo.Performance;
+namespace MarketAlly.IronGo.Performance;
 
 /// <summary>
 /// Caches parsed AST results to improve performance for repeated parsing

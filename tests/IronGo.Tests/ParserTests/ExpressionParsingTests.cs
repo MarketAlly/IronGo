@@ -1,9 +1,9 @@
 using FluentAssertions;
-using IronGo;
-using IronGo.AST;
+using MarketAlly.IronGo;
+using MarketAlly.IronGo.AST;
 using Xunit;
 
-namespace IronGo.Tests.ParserTests;
+namespace MarketAlly.IronGo.Tests.ParserTests;
 
 public class ExpressionParsingTests
 {

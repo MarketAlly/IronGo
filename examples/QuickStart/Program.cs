@@ -1,9 +1,9 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using IronGo;
-using IronGo.AST;
-using IronGo.Utilities;
+using MarketAlly.IronGo;
+using MarketAlly.IronGo.AST;
+using MarketAlly.IronGo.Utilities;
 
 namespace QuickStart;
 
@@ -96,7 +96,7 @@ func main() {
             // Export to JSON (compact)
             var json = System.Text.Json.JsonSerializer.Serialize(ast, new System.Text.Json.JsonSerializerOptions
             {
-                Converters = { new IronGo.Serialization.AstJsonConverter() }
+                Converters = { new MarketAlly.IronGo.Serialization.AstJsonConverter() }
             });
             Console.WriteLine($"JSON representation size: {json.Length:N0} characters");
             

@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace IronGo.AST;
+namespace MarketAlly.IronGo.AST;
 
 /// <summary>
 /// Represents a type referenced by identifier (e.g., "int", "string", "MyType")

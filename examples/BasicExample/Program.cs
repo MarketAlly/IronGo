@@ -1,7 +1,7 @@
-using IronGo;
-using IronGo.AST;
-using IronGo.Serialization;
-using IronGo.Utilities;
+using MarketAlly.IronGo;
+using MarketAlly.IronGo.AST;
+using MarketAlly.IronGo.Serialization;
+using MarketAlly.IronGo.Utilities;
 
 // Example Go source code
 const string goSource = @"

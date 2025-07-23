@@ -1,6 +1,6 @@
-using IronGo.AST;
+using MarketAlly.IronGo.AST;
 
-namespace IronGo.Utilities;
+namespace MarketAlly.IronGo.Utilities;
 
 /// <summary>
 /// Base class that provides a universal node checking mechanism for all visitor methods

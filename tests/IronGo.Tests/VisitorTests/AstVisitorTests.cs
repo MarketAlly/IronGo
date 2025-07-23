@@ -1,10 +1,10 @@
 using FluentAssertions;
-using IronGo;
-using IronGo.AST;
+using MarketAlly.IronGo;
+using MarketAlly.IronGo.AST;
 using System.Collections.Generic;
 using Xunit;
 
-namespace IronGo.Tests.VisitorTests;
+namespace MarketAlly.IronGo.Tests.VisitorTests;
 
 public class AstVisitorTests
 {

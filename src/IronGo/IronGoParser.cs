@@ -2,12 +2,12 @@ using System;
 using System.IO;
 using System.Text;
 using Antlr4.Runtime;
-using IronGo.AST;
-using IronGo.Parser;
-using IronGo.Performance;
-using IronGo.Diagnostics;
+using MarketAlly.IronGo.AST;
+using MarketAlly.IronGo.Parser;
+using MarketAlly.IronGo.Performance;
+using MarketAlly.IronGo.Diagnostics;
 
-namespace IronGo;
+namespace MarketAlly.IronGo;
 
 /// <summary>
 /// Main entry point for parsing Go source code

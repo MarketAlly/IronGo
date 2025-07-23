@@ -1,9 +1,9 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using IronGo.AST;
+using MarketAlly.IronGo.AST;
 
-namespace IronGo.Utilities;
+namespace MarketAlly.IronGo.Utilities;
 
 /// <summary>
 /// Utility methods for working with Go AST

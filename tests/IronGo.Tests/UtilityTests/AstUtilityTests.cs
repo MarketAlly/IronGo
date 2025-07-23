@@ -1,11 +1,11 @@
 using FluentAssertions;
-using IronGo;
-using IronGo.AST;
-using IronGo.Utilities;
+using MarketAlly.IronGo;
+using MarketAlly.IronGo.AST;
+using MarketAlly.IronGo.Utilities;
 using System.Linq;
 using Xunit;
 
-namespace IronGo.Tests.UtilityTests;
+namespace MarketAlly.IronGo.Tests.UtilityTests;
 
 public class AstUtilityTests
 {

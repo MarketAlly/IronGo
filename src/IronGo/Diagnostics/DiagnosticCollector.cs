@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using Antlr4.Runtime;
-using IronGo.AST;
+using MarketAlly.IronGo.AST;
 
-namespace IronGo.Diagnostics;
+namespace MarketAlly.IronGo.Diagnostics;
 
 /// <summary>
 /// Collects diagnostic information during parsing

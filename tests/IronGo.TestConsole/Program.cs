@@ -1,7 +1,7 @@
-﻿using IronGo;
-using IronGo.AST;
-using IronGo.Serialization;
-using IronGo.Utilities;
+﻿using MarketAlly.IronGo;
+using MarketAlly.IronGo.AST;
+using MarketAlly.IronGo.Serialization;
+using MarketAlly.IronGo.Utilities;
 using System.Text.Json;
 
 const string goCode = @"
@@ -88,7 +88,7 @@ try
     Console.WriteLine($"   Second parse: {secondTime:F2}ms (cache hit)");
     Console.WriteLine($"   Speedup: {firstTime/secondTime:F1}x");
     
-    var cacheStats = IronGo.Performance.ParserCache.Default.GetStatistics();
+    var cacheStats = MarketAlly.IronGo.Performance.ParserCache.Default.GetStatistics();
     Console.WriteLine($"   Cache entries: {cacheStats.EntryCount}");
     Console.WriteLine($"   Cache hit rate: {cacheStats.HitRate:F2}");
     

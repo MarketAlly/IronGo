@@ -36,7 +36,7 @@ Install-Package IronGo
 ### Basic Parsing
 
 ```csharp
-using IronGo;
+using MarketAlly.IronGo;
 
 // Parse Go source code
 var source = @"
