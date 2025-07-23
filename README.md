@@ -2,7 +2,7 @@
 
 [![NuGet](https://img.shields.io/nuget/v/IronGo.svg)](https://www.nuget.org/packages/IronGo/)
 [![License](https://img.shields.io/github/license/MarketAlly/IronGo.svg)](LICENSE)
-[![Build Status](https://img.shields.io/github/actions/workflow/status/MarketAlly/IronGo/build.yml)](https://github.com/MarketAlly/IronGo/actions)
+[![Build Status](https://img.shields.io/github/actions/workflow/status/MarketAlly/IronGo/ci.yml)](https://github.com/MarketAlly/IronGo/actions)
 
 IronGo is a native .NET library for parsing Go source code. It provides a complete Abstract Syntax Tree (AST) representation of Go programs with comprehensive support for Go 1.21+ syntax, including generics.
 
